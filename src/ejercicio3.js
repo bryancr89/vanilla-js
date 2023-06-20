@@ -1,10 +1,12 @@
 // Inserte el código aquí
+let lista = [1, 2, 3, 4];
 
-function clonarArreglo(arreglo) {
-  return arreglo;
-}
-let Arrgelo = [1, 2, 3, 4, 5];
-console.log(clonarArreglo(Arrgelo));
-
+let impirmirLista = (miLista) => {
+  let nuevaLista = [...miLista];
+  miLista.push(5, 6, 7);
+  console.log(miLista);
+};
+console.log(lista);
+impirmirLista(lista);
 // NO MODIFICAR
 export { clonarArreglo, clonarObjeto, sumar, saludar };

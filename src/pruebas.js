@@ -1,12 +1,12 @@
-// let lista = [1, 2, 3, 4];
+let lista = [1, 2, 3, 4];
 
-// let impirmirLista = (miLista) => {
-//   let nuevaLista = [...miLista];
-//   miLista.push(5, 6, 7);
-//   console.log(miLista);
-// };
-// console.log(lista);
-// impirmirLista(lista);
+let impirmirLista = (miLista) => {
+  let nuevaLista = [...miLista];
+  miLista.push(5, 6, 7);
+  console.log(miLista);
+};
+console.log(lista);
+impirmirLista(lista);
 // FILTER FUNCTION
 
 // function esCarro(elementoActual) {
