@@ -1,12 +1,48 @@
-let lista = [1, 2, 3, 4];
 
-let impirmirLista = (miLista) => {
-  let nuevaLista = [...miLista];
-  miLista.push(5, 6, 7);
-  console.log(miLista);
-};
-console.log(lista);
-impirmirLista(lista);
+const solicitudPromesa = fetch ("https://poeapi.co/api/v2/berry/1");
+ solicitudPromesa.then(function(response){
+  console.log(response.text);
+ });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let hola = () => {
+//   console.log("Hola Mundo");
+// };
+
+// let intervalID = setInterval(hola, 1000);
+
+
+// setTimeout(() => {
+//   console.log("Fin");
+//   clearInterval(intervalID);
+// }, 3500);
+
+// console.log("Empezamos") //caja 1-rápida
+// setTimeout(hola, 1000) // caja 2
+// console.log("terminamos") // caja 1-rápida
+
+// let lista = [1, 2, 3, 4];
+
+// let impirmirLista = (miLista) => {
+//   let nuevaLista = [...miLista];
+//   miLista.push(5, 6, 7);
+//   console.log(miLista);
+// };
+// console.log(nuevaLista);
+// impirmirLista(lista);
 // FILTER FUNCTION
 
 // function esCarro(elementoActual) {
